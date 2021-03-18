@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hello Client
+Bundle-SymbolicName: stage2client
+Bundle-Activator: client.HelloClient
+Bundle-Version: 1.0
+Export-Package: client;version="1.0"
+Import-Package: stage2;version="[1.0,2.0)",org.osgi.framework

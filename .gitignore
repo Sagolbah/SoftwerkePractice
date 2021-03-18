@@ -1,0 +1,7 @@
+stage2/.idea
+stage2/.idea/*
+stage2/.idea/libraries/*
+stage2/out
+stage2/HelloClient.jar
+stage2/HelloService.jar
+stage2/stage2.iml

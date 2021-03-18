@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hello Service
+Bundle-SymbolicName: stage2service
+Bundle-Activator: stage2.HelloService
+Bundle-Version: 1.0
+Export-Package: stage2;version="1.0"
+Import-Package: org.osgi.framework
