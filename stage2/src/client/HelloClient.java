@@ -6,11 +6,7 @@ import org.osgi.framework.InvalidSyntaxException;
 import org.osgi.framework.ServiceReference;
 import stage2.Hello;
 
-import java.util.Arrays;
-
 public class HelloClient implements BundleActivator {
-    // Book example threw NoClassDefFoundError
-    // The solution was made according to this: https://dzone.com/articles/simple-osgi-service
 
     @Override
     public void start(BundleContext context) throws InvalidSyntaxException {
