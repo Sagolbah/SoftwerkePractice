@@ -1,10 +1,10 @@
-package client;
+package ru.ifmo.swpractice.client;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.InvalidSyntaxException;
 import org.osgi.framework.ServiceReference;
-import stage2.Hello;
+import ru.ifmo.swpractice.service.Hello;
 
 public class HelloClient implements BundleActivator {
 

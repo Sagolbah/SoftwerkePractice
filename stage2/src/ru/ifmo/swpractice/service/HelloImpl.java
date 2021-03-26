@@ -1,4 +1,4 @@
-package stage2;
+package ru.ifmo.swpractice.service;
 
 public class HelloImpl implements Hello {
 
