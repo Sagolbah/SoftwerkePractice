@@ -46,9 +46,9 @@
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                        <Bundle-SymbolicName>${artifactId}</Bundle-SymbolicName>
-                        <Bundle-Name>${artifactId}</Bundle-Name>
-                        <Private-Package>${groupId}.impl</Private-Package>
+                        <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+                        <Bundle-Name>${project.artifactId}</Bundle-Name>
+                        <Private-Package>${project.groupId}.impl</Private-Package>
                         <!-- Enable processing of OSGI DS component annotations -->
                         <_dsannotations>*</_dsannotations>
                         <!-- Enable processing of OSGI metatype annotations -->

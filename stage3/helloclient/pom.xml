@@ -54,8 +54,8 @@
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                        <Bundle-SymbolicName>${artifactId}</Bundle-SymbolicName>
-                        <Bundle-Name>${artifactId}</Bundle-Name>
+                        <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+                        <Bundle-Name>${project.artifactId}</Bundle-Name>
                         <!-- Enable processing of OSGI DS component annotations -->
                         <_dsannotations>*</_dsannotations>
                         <!-- Enable processing of OSGI metatype annotations -->
