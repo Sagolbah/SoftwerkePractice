@@ -7,7 +7,7 @@ import ru.ifmo.swpractice.stage3.helloservice.Hello;
 
 // Using OSGi annotations, since Apache are deprecated after 6.0.0
 
-@Component
+@Component(service = Hello.class)
 public class HelloService implements Hello {
     @Override
     public void sayHello() {
