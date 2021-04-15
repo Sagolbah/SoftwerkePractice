@@ -23,7 +23,7 @@ public class RBCNewsService implements NewsService {
             }
             return result;
         } catch (IOException e) {
-            System.err.println("Connection to AiF has failed: " + e.getMessage());
+            System.err.println("Connection to RBC has failed: " + e.getMessage());
         }
         return null;
     }
