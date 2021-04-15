@@ -8,4 +8,19 @@ stage2/stage2.iml
 stage4/.idea
 stage4/.idea/*
 stage4/stage4.iml
+stage5/.idea
+stage5/stage5.iml
+stage5/aif/aif.iml
+stage5/aif/target
+stage5/common/common.iml
+stage5/common/target
+stage5/command/command.iml
+stage5/command/target
+stage5/rbc/rbc.iml
+stage5/rbc/target
+stage5/lenta/lenta.iml
+stage5/lenta/target
+
+
+
 
